@@ -1,16 +1,17 @@
 # Privacy Policy for One Click Searches
 
-*Last Updated: June 06, 2025*
+*Last Updated: june 07, 2025*
 
 ## Introduction
 
-Welcome to One Click Searches ("we", "our", or "extension"). This Privacy Policy explains how we collect, use, store, protect, and share information when you use our Chrome extension. We are committed to protecting your privacy and handling your data transparently.
+Welcome to One Click Searches ("we", "our", or "extension"). This Privacy Policy explains how we collect, use, store, protect, and share information when you use our browser extension. We are committed to protecting your privacy and handling your data transparently.
 
 ## Information We Collect
 
 ### User-Provided Information
 - **Search Preferences**: Number of desktop and mobile searches, delay settings, and search categories selected by you.
-- **Configuration Settings**: Your preferences for how the extension operates.
+- **Configuration Settings**: Your preferences for how the extension operates, including scheduling options and background search settings.
+- **Device Identification**: Optional display name for the device you're using (stored locally only).
 
 ### Automatically Collected Information
 - **Search History**: The extension generates and executes search queries on Bing.com.
@@ -22,6 +23,7 @@ Welcome to One Click Searches ("we", "our", or "extension"). This Privacy Policy
 - We do **NOT** collect personal identification information.
 - We do **NOT** collect browsing history outside of the generated Bing searches.
 - We do **NOT** collect financial information.
+- We do **NOT** transmit any data to our servers or third parties except Microsoft/Bing.
 
 ## How We Use Your Information
 
@@ -30,17 +32,38 @@ We use your information for the following purposes:
 - To save your preferences for future sessions.
 - To generate appropriate search queries based on your selected categories.
 - To track search progress and completion status.
-- To improve our extension based on usage patterns.
+- To schedule automated searches based on your preferences.
+- To simulate realistic human-like search behavior.
 
 ## Data Storage
 
 ### Local Storage
-- All data is stored locally on your device using Chrome's `storage.local` API.
+- All data is stored locally on your device using browser storage APIs.
 - No data is transmitted to external servers owned by us.
 
 ### Data Retention
 - Your preferences and settings are retained until you uninstall the extension or clear browser data.
 - Search session data is temporary and is reset after completion of searches or browser restart.
+
+## Permissions and Their Usage
+
+### Storage Permission
+Used solely to save your search settings and preferences locally on your device.
+
+### Tabs Permission
+Required to create and control tabs for performing Bing searches automatically.
+
+### Scripting Permission
+Essential for automating the search process by typing queries into the Bing search box and simulating realistic human searching behavior.
+
+### Alarms Permission
+Powers the scheduling feature that lets you automate searches at customized intervals.
+
+### Notifications Permission
+Used only to alert you when your searches are complete or when rewards are ready to be collected.
+
+### ActiveTab Permission
+Allows the extension to perform searches in the current tab when needed without requiring broader permissions.
 
 ## Third-Party Access
 
@@ -54,11 +77,15 @@ We use your information for the following purposes:
 - We do not use analytics services that would send your data to third parties.
 - We do not include advertising networks in our extension.
 
+## Multi-Browser Compatibility
+
+This extension works across multiple browsers including Chrome, Firefox, Edge, and Opera. We use the same privacy practices across all supported browsers, and our approach to data handling remains consistent regardless of which browser you use.
+
 ## Your Rights
 
 You have the following rights regarding your data:
 - Right to know what data we collect.
-- Right to access your stored data (via Chrome's extension data viewing tools).
+- Right to access your stored data (via browser extension data viewing tools).
 - Right to delete your data by uninstalling the extension.
 - Right to restrict processing by disabling the extension.
 
@@ -67,7 +94,8 @@ You have the following rights regarding your data:
 We implement reasonable security measures to protect your information:
 - All data is stored locally on your device.
 - We do not transmit your data to external servers.
-- The extension operates within Chrome's security sandbox.
+- The extension operates within each browser's security sandbox.
+- No logging of your actions or data occurs outside your local device.
 
 ## Changes to This Privacy Policy
 
@@ -83,11 +111,13 @@ If you have any questions about this Privacy Policy, please contact us at:
 - Email: [ratnadeveloperofficial@gmail.com](mailto:ratnadeveloperofficial@gmail.com)
 - GitHub: [https://github.com/ratnadeveloper/one-click-searches-privacy](https://github.com/ratnadeveloper/one-click-searches-privacy)
 
-## Compliance with Chrome Web Store Policies
+## Compliance with Browser Store Policies
 
-This extension complies with the Chrome Web Store Developer Program Policies, including:
-- [User Data Privacy](https://developer.chrome.com/docs/webstore/program-policies/user-data-privacy/)
-- [Personal or Sensitive User Data](https://developer.chrome.com/docs/webstore/program-policies/personal-data/)
+This extension complies with the policies of all browser stores where it is published, including:
+- Chrome Web Store Developer Program Policies
+- Mozilla Add-on Policies
+- Microsoft Edge Add-on Policies
+- Opera Add-on Policies
 
 ## Open Source
 
